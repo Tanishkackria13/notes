@@ -1,0 +1,40 @@
+form {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 0;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    display: flex;
+    flex-direction: column;
+
+    .title{
+        border: none;
+        font-size: 2rem;
+        padding: 0.8rem;
+        outline: none;
+    }
+    .comment{
+        border: none;
+        font-size: 1rem;
+        padding: 0.6rem;
+        resize: none;
+        outline: none;
+    }
+    button {
+        position: absolute;
+        left: 28.45rem;
+        bottom: -1.3rem;
+        background: #f5ba13;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        outline: none;
+    }
+
+}
